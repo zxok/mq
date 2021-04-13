@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @Slf4j
+//topic（主题），consumerGroup（消费者分组）
 @RocketMQMessageListener(consumerGroup = "test-group", topic = "hello-topic")
 public class CustomListener implements RocketMQListener<String> {
 //    @Resource
