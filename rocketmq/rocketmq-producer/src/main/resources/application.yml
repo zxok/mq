@@ -1,0 +1,14 @@
+server:
+  port: 8616
+spring:
+  application:
+    name: rocketmq-producer
+rocketmq:
+  name-server: 101.37.159.158:9876
+  producer:
+    group: order-mq
+  topic: hello-topic
+
+
+
+

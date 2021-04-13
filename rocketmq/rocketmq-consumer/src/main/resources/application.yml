@@ -1,0 +1,9 @@
+server:
+  port: 8618
+
+spring:
+  application:
+    name: rocketmq-consumer
+
+rocketmq:
+  name-server: 101.37.159.158:9876
